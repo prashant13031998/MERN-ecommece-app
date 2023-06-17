@@ -14,7 +14,7 @@ import {
   braintreeTokenController,
   braintreePaymentController,
 } from "../controllers/productController.js";
-import { isAdmin, requireSignIn } from "../middlewares/authMiddleware.js";
+import { isAdmin, requireSignIn } from "../middlewares/authMiddleWare.js";
 import formidable from "express-formidable";
 
 const router = express.Router();
