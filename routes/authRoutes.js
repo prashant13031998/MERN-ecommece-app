@@ -9,7 +9,8 @@ import {
   allOrdersController,
   orderStatusController,
 } from "../controllers/authController.js";
-import { isAdmin, requireSignIn } from "../middlewares/authMiddleware.js";
+
+import { requireSignIn, isAdmin } from "./../middlewares/authMiddleWare.js";
 
 const router = express.Router();
 
